@@ -1,0 +1,12 @@
+{
+  "name": "arekvanschaijk/bitbucket-server-to-satis-generator",
+  "description": "Satis.json generator provided by Bitbucket Server",
+  "require" : {
+    "arekvanschaijk/bitbucket-server-client" : "*"
+  },
+  "autoload" : {
+    "psr-4": {
+      "ArekvanSchaijk\\BitbucketServerToSatisGenerator\\" : "src"
+    }
+  }
+}
